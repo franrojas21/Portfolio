@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Francisca's Portfolio | Contact Me</title>
+</head>
+<body>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Delicious+Handrawn&family=Klee+One&family=Noto+Serif+Display&family=Pacifico&family=Sofia&family=Yomogi&display=swap');
+      </style>
+
+    <header>
+        <div class="logotipo">
+            <img src="img/icono.png" alt="logotipo" height="75px" width="auto">
+        </div>
+    </header>
+
+    <div class="menu">
+        <nav>
+            <ul>
+            <li><a href="http://127.0.0.1:5500/index.html" target="blank"><strong> Home</strong></a></li>
+            <li><a href="http://127.0.0.1:5500/aboutme.html" target="blank"><strong>About Me</strong></a> </li>
+            <li><a href="http://127.0.0.1:5500/contactme.html" target="blank"><strong>Contact Me</strong></a></li></ul>
+        </nav>
+    
+
+
+
+    <section>
+        <article class="contacto">
+            <div class="contenido">
+                <h1>Formulario de inscripcion</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="formulario">
+                <form name="form1" action="http://portales.inacap.cl/" method="get" cellspacing="20px"> <!--datos visibles en el navegador || post ocultos-->
+                    
+                    <label>Nombre:</label>
+                    <input type="text" name="nombre" placeholder="Ingrese su nombre" required maxlength="20"><br>
+                    <label>Apellido:</label>
+                    <input type="text" name="apellido" placeholder="Ingrese su apellido" required maxlength="20"><br>
+                    <label>Edad:</label>
+                    <input type="number" name="edad" placeholder="Ingrese su edad" required min="18" max="100"><br>
+                    <label>Fecha:</label>
+                    <input type="date" name="fecha" placeholder="Ingrese la fecha de hoy" required><br> <!--required para que los datos no sean enviados en blanco-->
+                    <label>Mail:</label>
+                    <input type="email" name="mail" placeholder="Ingrese mail" required><br> 
+                    <label>Telefono:</label>
+                    <input type="tel" name="phone" placeholder="Ingrese numero de telefono" required><br> 
+                    
+                    <label>Genero:</label>
+                    <input type="radio" name="genero" value="Masculino" id="genero" > 
+                    <label>Masculino</label>
+                    <input type="radio" name="genero"  value="Femenino" id="genero" checked>
+                    <label>Femenino</label><br>
+
+                    <select name="seleccion" class="control" id="">
+                        <option value="1">Windows</option>
+                        <option value="2">Ios</option>
+                        <option value="3">Android</option>
+                    </select>
+
+                    <input type="submit" name="enviar"><br>
+
+
+
+                </form>
+
+            </div>
+
+        </article>
+    </section>
+
+
+    <footer>
+        <div class="sponsors">
+            <img src="img/sql2.png" alt="sql" height="75px" width="auto">
+            <img src="img/python.png" alt="python" height="75px" width="auto">
+            <img src="img/html.png" alt="html" height="75px" width="auto">
+            <img src="img/css2.png" alt="css" height="75px" width="auto">
+            <img src="img/linkedin.png" alt="linkedin" height="75px" width="auto">
+
+        </div>
+
+        <strong><p>©Francisca Rojas &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp All rights reserved  &nbsp&nbsp&nbsp&nbsp 2023 ©&nbsp&nbsp&nbsp&nbsp&nbsp</p></strong>
+        <br><br><br>
+    </footer>
+</body>
+</html>

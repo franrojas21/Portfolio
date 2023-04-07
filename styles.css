@@ -1,0 +1,175 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Delicious+Handrawn&family=Klee+One&family=Noto+Serif+Display&family=Pacifico&family=Sofia&family=Yomogi&display=swap');
+
+body{
+    background-color:white; /*#f4efe6*/
+    margin:0;
+}
+
+.logotipo{
+    float: right;
+    position: relative;
+    right: 150px;
+    top:70px;
+}
+
+
+menu {
+    background: rgb(217, 31, 59);
+    width: 100%; /*que ocupe todo el ancho de la pantalla*/
+    position: fixed; /*Mantener menu fijo*/
+    z-index: 100; /*cuando varios elementos se superponen el indice mayor se mantiene superior*/
+    
+    
+}
+
+nav{
+    width: 100%;
+    height: auto;
+    position: center;
+    position: relative;
+    margin-left: 100px;
+    top: 50px;
+    margin-bottom: 100px;
+   
+    
+  }
+  nav ul{
+    width: 100%;
+    list-style: none;/*sin viñetas*/
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    
+  }
+  nav li{
+    display: inline;
+    
+  }
+  nav li a{
+    padding: 0 40px;
+    text-decoration:none;/*elimino el subrayado*/
+    font-family:Chakra Petch;
+    font-size: 20px;
+    color: #CE101D; /*border:1px solid #000000;*/
+    border-radius: 5px;
+    text-shadow: 1px 2px 10px #f41f1f94;
+    
+
+  
+  }
+  nav a:hover{/*cuando paso el puntero sobre el enlace*/
+    color: #fff;
+    margin-bottom: solid;
+    background-color: rgb(8, 1, 0);
+    
+  }
+
+footer{
+    background-color: #ce101de0;
+    text-align: center;
+    padding: 20px;
+    font-family:Chakra Petch;
+    font-size: 15px;
+    color: #373131;
+    text-align: center;
+    height: 110px;
+    
+    
+    }
+
+.sponsors{
+    text-align: center;
+    line-height: 10px;
+}
+
+/*.social-media{
+    text-align: right;
+    }*/
+/*-----------------------home-----------------------------------*/
+    .encabezado{
+        margin-top: 75px;
+        margin-bottom: 50px;
+        text-align: center;
+        line-height: 3px;
+        letter-spacing: 2px;
+        margin-top: 125px;
+        font-family:Chakra Petch;
+        font-weight: 100;
+        font-size: 1.375rem;
+        position: relative;
+        left: 160px;
+        top: 40px;
+    }
+
+    .pro{
+        text-decoration: underline;
+      }
+    
+    .portada{
+        width: auto;
+        height:300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        position: relative;
+        bottom: 200px;
+        left: 210px;
+        justify-content: left;
+        margin-bottom: 100px;
+    }
+    
+    .body1{
+        background-color: #ce101dc0;
+        height:900px;
+    }
+    
+    .body2{
+        background-color: #fff;
+        height:900px;
+    }
+    
+    
+    /*-----------------------contact-me-----------------------------------*/
+    .contacto{
+        width: 100%;
+    }
+
+    .contenido{
+        background-color: #ce101de0;
+        padding: 30px;
+        margin-left: 100px;
+        margin-right: 100px;
+        border-radius: 20px;
+        box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+    }
+
+    .formulario{
+        background-color: white;
+        padding:40px;
+        box-shadow:inset 1px 1px 10px rgba(0,0,0,0.5);
+        text-align: center;
+        line-height: 10px;
+        
+    }
+
+    .formulario form1{
+        margin: 0 auto; /*centra form*/
+        width: 400px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+    }
+
+    .control{
+        background: #eee;
+        padding: 10px;
+        border: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 400px;
+        border-radius: 4px;
+        
+
+    }
